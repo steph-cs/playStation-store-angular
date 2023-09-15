@@ -1,1 +1,12 @@
-<p>card works!</p>
+<div class="card" style="width: 18rem;">
+    <a href="#">
+        <img [src]="'assets/imgs/games/'+img" class="card-img" [alt]="title">
+        <div class="labels ms-1">
+            <app-card-label *ngFor="for let label of labels" [label]="label"></app-card-label>
+        </div>
+
+        <app-card-pricing [title]="title" [discount]="discount" [current_price]="current_price"
+            [old_price]="old_price"></app-card-pricing>
+    </a>
+
+</div>

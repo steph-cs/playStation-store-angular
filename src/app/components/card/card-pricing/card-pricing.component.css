@@ -1,0 +1,22 @@
+.card-title{
+    display: block;
+}
+
+.card-discount{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.card-old-price{
+    color: rgb(119, 119, 119);
+    text-decoration: line-through;
+
+}
+
+.card-price span{
+    font-size: 14px;
+}

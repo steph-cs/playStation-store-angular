@@ -1,0 +1,21 @@
+*{
+    text-decoration: none;
+    color: black;
+}
+.card {
+    margin: 15px;
+    border: none;
+}
+
+.card-img {
+    border-radius: 10px;
+}
+
+.card:hover .card-img{
+    outline: 2px solid black;
+}
+
+.labels{
+    position: relative;
+    bottom: 30px;
+}

@@ -1,0 +1,7 @@
+<div>
+    <title>{{title}}</title>
+    <div class="d-flex justify-content-center flex-wrap mt-5">
+        <app-card *ngFor="for let game of games" [img]="game.img" [title]="game.title" [discount]="game.discount"
+            [current_price]="game.current_price" [old_price]="game.old_price" [labels]="game.labels"></app-card>
+    </div>
+</div>

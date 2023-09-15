@@ -12,6 +12,7 @@ import { CardLabelComponent } from './components/card/card-label/card-label.comp
 import { CardPricingComponent } from './components/card/card-pricing/card-pricing.component';
 import { NavbarMainComponent } from './components/navbar/navbar-main/navbar-main.component';
 import { NavbarSecondaryComponent } from './components/navbar/navbar-secondary/navbar-secondary.component';
+import { CardsListComponent } from './components/cards-list/cards-list.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NavbarSecondaryComponent } from './components/navbar/navbar-secondary/n
     CardLabelComponent,
     CardPricingComponent,
     NavbarMainComponent,
-    NavbarSecondaryComponent
+    NavbarSecondaryComponent,
+    CardsListComponent
   ],
   imports: [
     BrowserModule,
